@@ -1,0 +1,16 @@
+﻿Build started 06/01/2012 19:43:09.
+     1>Project "C:\gg\dev\src\Sandbox\EffectiveCpp\Chapter6\Chapter6.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Chapter6.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\gtest\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Chapter6.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Item40_MultipleInheritance.cpp
+         Item40_MultipleInheritance.cpp
+     1>c:\gg\dev\src\sandbox\effectivecpp\chapter6\item40_multipleinheritance.cpp(35): error C2248: 'ElectronicGadget::checkOut' : cannot access private member declared in class 'ElectronicGadget'
+                 c:\gg\dev\src\sandbox\effectivecpp\chapter6\item40_multipleinheritance.cpp(18) : see declaration of 'ElectronicGadget::checkOut'
+                 c:\gg\dev\src\sandbox\effectivecpp\chapter6\item40_multipleinheritance.cpp(16) : see declaration of 'ElectronicGadget'
+     1>Done Building Project "C:\gg\dev\src\Sandbox\EffectiveCpp\Chapter6\Chapter6.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.58
