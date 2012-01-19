@@ -1,0 +1,16 @@
+EffectiveCpp/_ReSharper.EffectiveCpp/
+EffectiveCpp/gtest/msvc/EffectiveCpp
+Debug/
+Release/
+ipch/
+*.tlog
+*.log
+*.lastbuildstate
+*.dll
+*.exe
+*.lib
+*.opensdf
+*.sdf
+*.obj
+*.idb
+*.pdb
